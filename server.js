@@ -1,5 +1,7 @@
 const express = require('express');
 const ShortUrl = require('./models/shortUrl')
+const path=require('path')
+
 const app = express()
 
 const connectDB = require('./config/db');
